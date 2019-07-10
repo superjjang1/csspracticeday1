@@ -1,0 +1,48 @@
+html {
+    font-size: 12px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+}
+div.header {
+    background-color: white;
+    border: 2px solid black;
+    height: 120px;
+    position: absolute;
+    float: top;
+
+}
+div.navigation {
+    background-color: blue;
+    font-style: white;
+    border: 2px solid black;
+    font-size: 18px;
+    height: 800px;
+    width: 40%;
+    float:left;
+    
+}
+div.footer {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 12px;
+    position: relative;
+    height: 30px;
+    bottom: 0px;
+    clear: both;
+
+    
+}
+div.content {
+    background-color: red;
+    border: 2px solid black;
+    font-size: 18px;
+    height: 800px;
+    width: 60%;
+    float: right;
+    top: 130px;
+    
+}
+body {
+    background-color: white;
+    position: absolute;
+}
